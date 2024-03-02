@@ -1,0 +1,18 @@
+
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "fb4ebd65-b78b-42a4-b64c-26f5692e3c7c",
+    "id": "0fd24b02-4460-47c0-9ec6-494349c96052",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "npstackro-1676008927366",
+    "state": "Enabled",
+    "tenantId": "fb4ebd65-b78b-42a4-b64c-26f5692e3c7c",
+    "user": {
+      "name": "Nuggu_1708233920339@npstackroute.onmicrosoft.com",      
+      "type": "user"
+    }
+  }
+
+
+  terraform import azurerm_kubernetes_cluster.assignment-aks /subscriptions/0fd24b02-4460-47c0-9ec6-494349c96052/resourceGroups/aks-rg/providers/Microsoft.ContainerService/managedClusters/assignment-aks
